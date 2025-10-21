@@ -1,5 +1,3 @@
-
-
 import requests
 import pandas as pd
 from datetime import datetime
@@ -42,3 +40,4 @@ def get_dados_bcb(codigo_serie, data_inicio, data_fim):
     except Exception as e:
         print(f"Erro ao processar os dados: {e}")
         return None
+
